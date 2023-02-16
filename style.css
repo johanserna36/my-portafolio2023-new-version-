@@ -1,0 +1,151 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+.me{
+  height: 100vh;
+  width: 100;
+  background-color: black;
+  background-size: cover;
+  background-position: center;
+}
+nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 45px;
+  padding-left: 8%;
+  padding-right: 8%;
+}
+.logo{
+  color: white;
+  font-size: 35px;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+span{
+  color:#FFC300  ;
+}
+nav ul li{
+  list-style-type: none;
+  display: inline-block;
+  padding: 10px 25px;
+  
+}
+nav ul li a{
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+nav ul li a:hover{
+  color:#FFC300 ;
+  transition: .4s;
+}
+.content{
+  position: absolute;
+  top: 50%;
+  left: 8%;
+  transform: translateY(-50%);
+}
+
+h1{
+  color: white; 
+  margin: 20px 0px 20px;
+  font-size: 75px;  
+}
+h3{
+  color: white;
+  font-size: 25px;
+  margin-bottom: 50px;
+}
+.about{
+  width: 100%;
+  padding: 100px 0px;
+  background-color: #191919;
+}
+.about img{
+  height: auto;
+  width: 430px;
+}
+.about-text{
+  width: 550px;  
+}
+.main{
+  width: 1130px;
+  max-width: 95%;
+  margin: 0%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.about-text h2{
+  color:white;
+  font-size: 75px;
+  text-transform: capitalize;
+  margin-bottom: 20px;
+}
+
+.about-text p{
+  color: #fcfc;
+  letter-spacing: 1px;
+  line-height: 28px;
+  font-size: 18px;
+  margin-bottom:45px ;
+}
+.contact{
+  background: #101010;
+  width: 100%;
+  padding: 100px 0px;
+}
+
+.title h5{
+  color: white;
+  font-size: 75px;
+  width: 1130px;
+  margin: 30px auto;
+  text-align: center;
+  }
+.social{
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 400px;
+}
+.card{
+  height: 356px;
+  width: 335px;
+  padding: 20px 35px;
+  background: #191919;
+  border-radius: 20px;
+  margin: 15px;
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+}
+card i{
+  font-size: 50px;
+  display: block;
+  text-align: center;
+  margin: 25px 0px;
+  color: #FFC300;
+  
+}
+h5{
+  color: white;
+  font-size: 23px;
+  margin-bottom: 15px;
+  
+}
+footer{
+  color: white;
+  position: center;
+  width: 100px;
+  width: 400px;
+  padding-left: 8%;
+  background: #191919;
+  align-items: center;
+  justify-content: center; 
+
+}
